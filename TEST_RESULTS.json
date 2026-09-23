@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Repeatable bootstrap upserts do not duplicate drivers",
+    "pass": true,
+    "detail": "4 -> 4"
+  },
+  {
+    "name": "Server and SQLite health",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Existing query CREATE preserved",
+    "pass": 5,
+    "detail": ""
+  },
+  {
+    "name": "Existing query READ preserved",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Existing query DELETE preserved",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Catalog served from backend/database",
+    "pass": true,
+    "detail": "4 driver rows"
+  },
+  {
+    "name": "Strategy validation rejects gap",
+    "pass": true,
+    "detail": "Stints must use valid compounds and cover consecutive laps without gaps"
+  },
+  {
+    "name": "Saved strategy CREATE",
+    "pass": 2,
+    "detail": ""
+  },
+  {
+    "name": "Saved strategy persisted in SQLite",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Saved strategy READ",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Saved strategy UPDATE",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Saved strategy DELETE",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Web Worker seeded output deterministic",
+    "pass": true,
+    "detail": "1837.387 == 1837.387"
+  },
+  {
+    "name": "Web Worker cancel/terminate path",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "External Jolpica sync",
+    "pass": true,
+    "detail": "SKIPPED/limited by runtime network: fetch failed"
+  }
+]
